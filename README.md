@@ -41,17 +41,6 @@ and this is [another_page](another-page)
                         <a href="mailto:yeojunhann@gmail.com">Email</a>
                     </li>
                 </ul>
-                <div>
-                    <form>
-                        <label for="email">
-                            email: <input type="email" id="email" placeholder="enter your email" />
-                        </label>
-                        <label for="message">
-                            message: <textarea id="message">your message</textarea>
-                        </label>
-                        <input type="submit" />
-                    </form>
-                </div>
             </div>
        </div>
     </body>
