@@ -1,0 +1,56 @@
+p {
+    font-style: italic;
+}
+
+.cool-class {
+    font-weight: bold;
+    color: green;
+}
+
+#cool-id {
+    color: blue;
+}
+
+.grid-table {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+}
+
+.container {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.intro {
+    text-align: center;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.about-section {
+    text-align: center;
+    text-decoration: none;
+}
+
+.about-list {
+    list-style: none;
+    padding: 0;
+}
+
+@media (min-width: 600p) {
+    // breakpoint 1: run this code if the minimum width of screen is 600px
+    .grid {
+        grid-template-columns: 50% 50%
+    }
+}
+
+@media (min-width: 900px) {
+    // breakopint 2: run this code if the screen is at least 900px wide
+    .grid {
+        grid-template-columns 1fr 1fr 1fr;
+    }
+}
