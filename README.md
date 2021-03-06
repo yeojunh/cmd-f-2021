@@ -12,10 +12,10 @@ and this is [another_page](another-page)
         <div class="container">
             <div class="about-grid">
                 <div class="about-section">
-                    <p id="cool-id">This is an "about" section of my portfolio.</p>
+                    <p id="cool-id">This is an "about" section of website.</p>
                 </div>
                 <div class="about-section">
-                    <p>Some of my interests include:</p>
+                    <p>lists:</p>
                     <ul>
                         <li>List item 1</li>
                         <li>List item 2</li>
@@ -23,7 +23,7 @@ and this is [another_page](another-page)
                 </div>
             </div>
             <div>
-                <h3>Projects</h3>
+                <h3>images</h3>
                 <img src="https://via.placeholder.com/300" />
                 <img src="https://via.placeholder.com/300" />
                 <img src="https://via.placeholder.com/300" />
@@ -32,13 +32,13 @@ and this is [another_page](another-page)
                 <h3>Links</h3>
                 <ul>
                     <li>
-                        <a href="https://github.com/yeojunh">Github</a>
+                        list 1
                     </li>
                     <li>
-                        <p>this is my Linkedin</p>
+                        list 2
                     </li>
                     <li>
-                        <a href="mailto:yeojunhann@gmail.com">Email</a>
+                        list 3
                     </li>
                 </ul>
             </div>
