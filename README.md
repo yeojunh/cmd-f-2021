@@ -1,20 +1,15 @@
-# Welcome to Women's Support!
+# Welcome to Women's Intel??!
 cmd-f Women's Support Website by Yeojun Han, Ashley Choo, Grace Zhang
 and this is [another_page](another-page)
 
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>cmd-f 2021 portfolio</title>
+        <title>cmd-f 2021 Women's Intel</title>
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
         <div class="container">
-            <div class="intro">
-                <img src="https://via.placeholder.com/150" />
-                <h1 class="cool-class">Welcome to my portfoilo! My Name is Yeojun :)</h1>
-                <h3>I am in a group of first-year science students at UBC!</h3>
-            </div>
             <div class="about-grid">
                 <div class="about-section">
                     <p id="cool-id">This is an "about" section of my portfolio.</p>
