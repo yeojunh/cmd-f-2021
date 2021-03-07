@@ -62,17 +62,6 @@
     color: white;
 }
 
-.app-picture{
-    width: 20%;
-    float: right;
-}
-
-.app-picture img{
-    width: 100%;
-    margin-top: -20px;
-    padding-left: 50px;
-}
-
 .column{
     float: center;
     width: 50%;
