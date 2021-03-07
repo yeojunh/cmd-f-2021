@@ -1,56 +1,86 @@
-p {
-    font-style: italic;
-}
-
-.cool-class {
-    font-weight: bold;
-    color: green;
-}
-
-#cool-id {
-    color: blue;
-}
-
-.grid-table {
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto auto auto;
-}
-
-.container {
-    max-width: 840px;
-    margin: 0 auto;
-}
-
-.intro {
-    text-align: center;
-}
-
-.about-grid {
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-.about-section {
-    text-align: center;
-    text-decoration: none;
-}
-
-.about-list {
-    list-style: none;
+*{
+    margin: 0;
     padding: 0;
+    font-family: sans-serif;
+    background: #522B2E;
 }
 
-@media (min-width: 600p) {
-    // breakpoint 1: run this code if the minimum width of screen is 600px
-    .grid {
-        grid-template-columns: 50% 50%
-    }
+.container{
+    width: 100%;
+    height: 100%;
 }
 
-@media (min-width: 900px) {
-    // breakopint 2: run this code if the screen is at least 900px wide
-    .grid {
-        grid-template-columns 1fr 1fr 1fr;
-    }
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+
+.menu li{
+    list-style: none;
+    margin: 0 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.logo img{
+    width: 100px;
+    margin-top: -7px;
+    margin-right: 50px;
+}
+
+.active{
+    color: white; 
+    /* to highlight HOME, change white to a different colour */
+}
+
+.banner{
+    width: 80%;
+    height: 70%;
+    top: 25%;
+    left: 130px;
+    position: absolute;
+    color: white;
+}
+
+.app-text{
+    width: 50%;
+    float: left;
+}
+
+.app-text h1{
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+
+.app-text p{
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: white;
+}
+
+.app-picture{
+    width: 20%;
+    float: right;
+}
+
+.app-picture img{
+    width: 100%;
+    margin-top: -20px;
+    padding-left: 50px;
+}
+
+.column{
+    float: center;
+    width: 50%;
+    padding: 5px;
+}
+
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
 }
