@@ -17,7 +17,7 @@
 
 .menu li{
     list-style: none;
-    margin: 0 75px;
+    margin: 0 80px;
     color: white;
     cursor: pointer;
 }
@@ -37,19 +37,19 @@
     width: 20px;
     height: 70%;
     top: 25%;
-    left: 130px;
+    left: 80px;
     position: absolute;
     color: white;
 }
 
 .app-text{
-    width: 50%;
+    width: 20%;
     float: left;
 }
 
 .app-text h1{
     font-size: 43px;
-    width: 200px;
+    width: 150px;
     position: relative;
     margin-left: 40px;
 }
@@ -63,7 +63,8 @@
 }
 
 .column{
-    margin-right: 50px;
+    margin-right: 100px;
+    right: 100px;
     float: right;
     width: 20%;
 }
@@ -72,4 +73,25 @@
     content: "";
     clear: both;
     display: table;
+}
+
+.desc_column{
+    margin-right: 70px;
+    margin-top: -30px;
+    font-size: 30px;
+    color: white;
+    float: right;
+    width: 22%;
+    text-align: center;
+}
+
+.desc_row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.img_description{
+    color: white;
+    text-align: center;
 }
